@@ -9,9 +9,9 @@ app.use(express.json());
 
 // ---- In-memory "database" (Stage 2) ----
 let tasks = [
-  { id: 1, title: 'Buy milk', done: false },
-  { id: 2, title: 'Walk the dog', done: true },
-  { id: 3, title: 'Write README', done: false },
+  { id: 1, title: 'Complete Assignment 1', done: false },
+  { id: 2, title: 'Submit project deliverables', done: true },
+  { id: 3, title: 'Write a progress report', done: false },
 ];
 let nextId = 4;
 
