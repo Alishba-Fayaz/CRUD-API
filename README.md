@@ -36,22 +36,23 @@ Interactive Swagger docs are at **http://localhost:3000/docs**.
 ## Example request
 
 ```bash
-curl -i -X POST http://localhost:3000/tasks \
-  -H "Content-Type: application/json" \
-  -d '{"title":"Buy milk"}'
+curl.exe -i -X POST http://localhost:3000/tasks -H "Content-Type: application/json" -d "@body.json"
 ```
 
 ```
 HTTP/1.1 201 Created
+X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
+Content-Length: 51
 
-{"id":4,"title":"Buy milk","done":false}
+{"id":4,"title":"Review pull request","done":false}
 ```
 
-<!-- TODO: `curl -i` output here for at least one endpoint -->
+I also verified the full CRUD cycle end-to-end via curl: `GET /tasks/99` → `404`,
+`POST /tasks` with an empty body → `400`, `PUT /tasks/4` → `200`, `DELETE /tasks/4` → `204`,
+and a follow-up `GET /tasks/4` → `404`, confirming the delete actually took effect.
 
 ## Swagger UI
 
-<!-- TODO: screenshot of http://localhost:3000/docs here, e.g. -->
-<!-- ![Swagger UI](./swagger-screenshot.png) -->
+![Swagger UI](./swagger-screenshot.png)
 
