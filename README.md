@@ -48,19 +48,10 @@ Content-Type: application/json; charset=utf-8
 {"id":4,"title":"Buy milk","done":false}
 ```
 
-<!-- TODO: paste your own `curl -i` output here for at least one endpoint -->
+<!-- TODO: `curl -i` output here for at least one endpoint -->
 
 ## Swagger UI
 
-<!-- TODO: paste your screenshot of http://localhost:3000/docs here, e.g. -->
+<!-- TODO: screenshot of http://localhost:3000/docs here, e.g. -->
 <!-- ![Swagger UI](./swagger-screenshot.png) -->
 
-## The mortality experiment
-
-<!-- TODO (optional extra): restart the server after creating a task, GET /tasks again,
-and write two sentences here about what you saw and why it happened. -->
-
-## AI vs me
-
-<!-- TODO (Stage 7, bonus): if you do the AI rematch, put your prompt and
-your three findings here. -->
