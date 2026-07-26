@@ -7,7 +7,7 @@ Built for FlyRank Internship — Backend Track — Week 2 — Assignment A1.
 
 A REST API that lets a client create, read, update, and delete tasks. Data is stored
 in memory only (a JavaScript array) — it resets whenever the server restarts. There is
-no database yet; that's next week.
+no database yet.
 
 ## How to install & run
 
