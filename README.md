@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
 {"id":4,"title":"Review pull request","done":false}
 ```
 
-output:
+output for curl.exe -i http://localhost:3000/tasks:
 ```
 HTTP/1.1 200 OK
 X-Powered-By: Express
