@@ -124,6 +124,7 @@ Content-Type: application/json; charset=utf-8
 ```
 
 output:
+```
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -134,6 +135,7 @@ Connection: keep-alive
 Keep-Alive: timeout=5
 
 [{"id":1,"title":"Complete Assignment 1","done":false},{"id":2,"title":"Submit project deliverables","done":true},{"id":3,"title":"Write a progress report","done":false},{"id":4,"title":"Review pull request","done":false}]
+```
 
 ## Exploring the database directly (Stage 4)
 
