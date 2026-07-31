@@ -123,6 +123,7 @@ Content-Type: application/json; charset=utf-8
 {"id":4,"title":"Review pull request","done":false}
 ```
 
+output:
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
